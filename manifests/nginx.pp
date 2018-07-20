@@ -1,7 +1,7 @@
 class profile::nginx {
   include ::nginx
 
-  ::nginx::vhost { $fasts['fqdn']:
+  ::nginx::vhost { $facts['fqdn']:
     
   }
 }
